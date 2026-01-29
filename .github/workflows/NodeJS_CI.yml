@@ -1,0 +1,45 @@
+name: Node.js CI - lab 2 #name that will appear in GitHub Actions UI
+
+on: #on what events run the workflow
+    workflow_dispatch: #manual trigger from GitHub Actions UI if you want to run it manually
+    push: 
+        branches: ['main'] # trigger the workflow only on push to main branch
+        paths:
+            - Lab2_Git_Actions/** # trigger only if files in Lab2_Git_Actions folder are changed
+            - .github/workflows/NodeJS_CI.yml # or if this workflow file itself is changed
+    pull_request: 
+        branches: ['main'] # trigger the workflow only on pull request to main branch
+        paths:
+            - Lab2_Git_Actions/** # trigger only if files in Lab2_Git_Actions folder are changed
+            - .github/workflows/NodeJS_CI.yml # or if this workflow file itself is changed
+
+jobs: # jobs to be run as part of this workflow
+    build-and-test:
+        runs-on: ubuntu-latest #uses ubuntu latest VM to run the job
+
+    #set the default working directory for the job ; where package.json is located
+        defaults:
+            run:
+                working-directory: Lab2_Git_Actions #sets the working directory to Lab2_Git_Actions folder
+
+        strategy: #strategy to run the job on multiple versions of nodejs
+            matrix:
+                node-version: [18.x, 20.x, 22.x] #nodejs versions to test against
+
+        steps: #steps involved in job
+        - name: Checkout repository code #step name
+          uses: actions/checkout@v4 #uses actions/checkout action to checkout the code
+
+        - name: Setup Node.js environment from matrix
+          run: echo "Using Node.JS version ${{ matrix.node-version }}" #prints the nodejs version being used
+
+        - name: Set up Node.js ${{ matrix.node-version }} #step name
+          uses: actions/setup-node@v4 #uses actions/setup-node action to setup nodejs environment
+          with:
+              node-version: ${{ matrix.node-version }} #specifies the nodejs version from matrix
+
+        - name: Install dependencies #step name
+          run: npm install #installs the dependencies listed in package.json
+
+        - name: Run tests #step name
+          run: npm test #runs the tests using npm test command
