@@ -1,0 +1,12 @@
+{
+  "name": "Lab2_Git_Actions",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for GitHub Actions demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "ITSA",
+  "license": "Open Source"
+}
