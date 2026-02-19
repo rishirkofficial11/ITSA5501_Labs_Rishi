@@ -1,0 +1,52 @@
+services:
+  redis:
+    #official Redis v7 image based on Alpine Linux 
+    image: redis:7-alpine
+    #Overrides the default start command to enable
+    # save the dataset if at least 1 key changed within 60 seconds.
+    # append every write to a log for durability
+    command: ["redis-server", "--save", "60", "1", "--appendonly", "yes"]
+    #Mounts the named volume redis-data at /data
+    #This persists keys, queues, and state across container restarts
+    volumes:
+      - redis-data:/data
+
+  api:
+    #Tells Compose to build an image from the ./api directory using its Dockerfile
+    build: ./api
+    #Sets runtime env vars inside the container
+    environment:
+      #the API listens on container port 3000
+      PORT: "3000"
+      #points the API to the Redis service by service name 
+      REDIS_HOST: "redis"
+      REDIS_PORT: "6379"
+    #Publishes the container’s port 3000 on the host’s port 8080. 
+    #You can open http://localhost:8080 in your browser to access the API/UI.
+    ports:
+      - "8080:3000"  
+    #Ensures Docker starts redis before starting api.
+    depends_on:
+      - redis
+    # If the container exits/crashes, Docker will automatically restart it unless you explicitly stop it.
+    restart: unless-stopped
+
+  worker:
+    #Builds the worker image from the ./worker directory.
+    build: ./worker
+    #Configuration for the background worker
+    environment:
+      REDIS_HOST: "redis"
+      #where to find Redis
+      REDIS_PORT: "6379"
+      #how many jobs each worker process handles in parallel.
+      WORKER_CONCURRENCY: "5"
+    #Start after redis is started.
+    depends_on:
+      - redis
+    #Auto restart behavior like the API.
+    restart: unless-stopped
+
+#Declares named volumes that services can use
+volumes:
+  redis-data:
