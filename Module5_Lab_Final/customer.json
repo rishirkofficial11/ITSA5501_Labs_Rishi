@@ -1,0 +1,16 @@
+{
+    "customer": {
+        "id": 101,
+        "firstName": "Rishi Kumar",
+        "lastName": "Ram Kumar",
+        "email": "Rishispearmarter5@gmail.com",
+        "phone": "9876543210",
+        "isActive": true,
+        "balance": 1500.75,
+        "address": {
+            "city": "Toronto",
+            "province": "Ontario"
+        },
+        "orders": ["Book", "Laptop"]
+    }
+}

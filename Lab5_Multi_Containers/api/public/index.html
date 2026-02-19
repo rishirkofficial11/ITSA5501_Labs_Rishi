@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Helpdesk Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+    body { margin: 2rem; }
+    .row { display: flex; gap: 2rem; flex-wrap: wrap; }
+    form, .panel { padding: 1rem; border: 1px solid #ddd; border-radius: 8px; max-width: 520px; }
+    input, textarea { width: 100%; padding: .5rem; margin: .25rem 0 .75rem; }
+    button { padding: .5rem .75rem; }
+    code { background: #f7f7f7; padding: .2rem .4rem; border-radius: 4px; }
+    .ok { color: #0a7; }
+    .warn { color: #a60; }
+    .err { color: #b00; }
+    table { border-collapse: collapse; width: 100%; font-size: 14px; }
+    th, td { border: 1px solid #eee; padding: .5rem; text-align: left; }
+  </style>
+</head>
+<body>
+  <h1>Helpdesk / Support Ticket Demo</h1>
+  <p>
+    Submit a support ticket and watch background workers process it.
+    Use <code>docker compose up -d --scale worker=3</code> to "add more agents".
+  </p>
+
+  <div class="row">
+    <form id="ticketForm">
+      <h3>Create Ticket</h3>
+      <label>Name</label>
+      <input name="name" placeholder="Your name" required />
+      <label>Email</label>
+      <input name="email" placeholder="you@example.com" required />
+      <label>Subject</label>
+      <input name="subject" placeholder="Issue subject" required />
+      <label>Description</label>
+      <textarea name="description" rows="4" placeholder="Describe the issue..." required></textarea>
+      <button type="submit">Submit Ticket</button>
+      <div id="createResult"></div>
+    </form>
+
+    <div class="panel">
+      <h3>Metrics</h3>
+      <pre id="metrics">Loading...</pre>
+      <button id="refreshMetrics">Refresh Metrics</button>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top: 1rem;">
+    <h3>Recent Tickets</h3>
+    <button id="refreshTickets">Refresh Tickets</button>
+    <table>
+      <thead><tr><th>ID</th><th>Subject</th><th>Status</th><th>Resolution</th></tr></thead>
+      <tbody id="ticketsBody"></tbody>
+    </table>
+  </div>
+
+  <script>
+    async function fetchJSON(url, options) {
+      const res = await fetch(url, { headers: { 'Content-Type': 'application/json' }, ...options });
+      if (!res.ok) throw new Error(await res.text());
+      return res.json();
+    }
+
+    const form = document.getElementById('ticketForm');
+    const createResult = document.getElementById('createResult');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      createResult.textContent = 'Submitting...';
+      const formData = new FormData(form);
+      const payload = Object.fromEntries(formData.entries());
+      try {
+        const data = await fetchJSON('/tickets', { method: 'POST', body: JSON.stringify(payload) });
+        createResult.innerHTML = `<span class="ok">Created ticket <code>${data.ticketId}</code></span>`;
+        form.reset();
+        refreshTickets();
+        refreshMetrics();
+      } catch (err) {
+        createResult.innerHTML = `<span class="err">${err.message}</span>`;
+      }
+    });
+
+    async function refreshMetrics() {
+      try {
+        const m = await fetchJSON('/metrics');
+        document.getElementById('metrics').textContent = JSON.stringify(m, null, 2);
+      } catch (e) {
+        document.getElementById('metrics').textContent = e.message;
+      }
+    }
+    document.getElementById('refreshMetrics').addEventListener('click', refreshMetrics);
+
+    async function refreshTickets() {
+      try {
+        const tickets = await fetchJSON('/tickets?limit=20');
+        const tbody = document.getElementById('ticketsBody');
+        tbody.innerHTML = tickets.map(t => {
+          const res = t.resolution ? t.resolution.slice(0, 60) : '';
+          return `<tr>
+            <td><code>${t.id}</code></td>
+            <td>${t.subject || ''}</td>
+            <td>${t.status || ''}</td>
+            <td title="${t.resolution || ''}">${res}</td>
+          </tr>`;
+        }).join('');
+      } catch (e) {
+        console.error(e);
+      }
+    }
+    document.getElementById('refreshTickets').addEventListener('click', refreshTickets);
+
+    refreshMetrics();
+    refreshTickets();
+ 
+    setInterval(() => { refreshMetrics(); refreshTickets(); }, 4000);
+  </script>
+</body>
+</html>

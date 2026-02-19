@@ -1,0 +1,526 @@
+CustomerID,Name,Email,Location,Satisfaction_Score,Feedback,Date
+1102,Bob Lee,sarah@domain.com,Montreal,3,Great service,2023-06-01
+1435,  Alice Johnson  ,bob.lee@gmail.com,Toronto,2,,2023-03-02
+1860,Alice Johnson,bob.lee@gmail.com,Vancouver,,,2023-03-02
+1270,  Alice Johnson  ,bob.lee@gmail.com,Vancouver,4,,2023-12-20
+1106,Alice Johnson,bob.lee@gmail.com,Montreal,4,Okay,2023-01-28
+1071,Bob Lee,john@example.com,toronto,5,,2023-02-12
+1700,Alice Johnson,bob.lee@gmail.com,,1,,2023-06-18
+1020,Alice Johnson,,,5,Great service,2023-03-27
+1614,Alice Johnson,,Vancouver,3,Okay,2023-06-26
+1121,John Smith,john@example.com,MONTREAL,2,,2023-01-17
+1466,John Smith,bob.lee@gmail.com,MONTREAL,3,Okay,2023-04-08
+1214,John Smith,bob.lee@gmail.com,Montreal,,Great service,2023-07-17
+1330,Bob Lee,bob.lee@gmail.com,,4,,2023-04-08
+1458,  Alice Johnson  ,sarah@domain.com,Vancouver,5,Okay,2023-03-06
+1087,,alice@sample.net,toronto,5,Bad experience,2023-11-26
+1372,Alice Johnson,sarah@domain.com,,5,Great service,2023-12-07
+1099,Alice Johnson,alice@sample.net,Vancouver,3,Great service,2023-01-05
+1871,Bob Lee,bob.lee@gmail.com,Vancouver,4,Great service,2023-01-02
+1663,Alice Johnson,bob.lee@gmail.com,Toronto,2,Bad experience,2023-01-22
+1130,John Smith,sarah@domain.com,toronto,,Bad experience,2023-04-22
+1661,,sarah@domain.com,Toronto,2,,2023-02-26
+1308,Sarah Khan,alice@sample.net,Montreal,3,Okay,2023-03-07
+1769,Alice Johnson,,Toronto,,,2023-11-26
+1343,John Smith,alice@sample.net,Toronto,5,Okay,2023-04-08
+1491,Sarah Khan,sarah@domain.com,,1,Bad experience,2023-05-24
+1413,,sarah@domain.com,MONTREAL,3,Bad experience,2023-05-05
+1805,Sarah Khan,john@example.com,Vancouver,3,,2023-06-16
+1385,John Smith,sarah@domain.com,toronto,4,,2023-03-27
+1191,  Alice Johnson  ,john@example.com,Toronto,2,,2023-03-17
+1955,  Alice Johnson  ,,toronto,3,Okay,2023-12-10
+1276,Sarah Khan,alice@sample.net,MONTREAL,3,,2023-10-21
+1160,Bob Lee,alice@sample.net,MONTREAL,5,Great service,2023-02-28
+1459,Sarah Khan,john@example.com,Toronto,5,Okay,2023-05-18
+1313,Alice Johnson,alice@sample.net,Montreal,,Okay,2023-04-09
+1021,Alice Johnson,sarah@domain.com,Toronto,1,,2023-07-11
+1252,  Alice Johnson  ,bob.lee@gmail.com,,4,Bad experience,2023-08-31
+1747,Bob Lee,john@example.com,Vancouver,1,Okay,2023-11-15
+1856,John Smith,alice@sample.net,Montreal,,Bad experience,2023-02-18
+1560,Alice Johnson,john@example.com,Toronto,5,,2023-02-01
+1474,  Alice Johnson  ,john@example.com,toronto,2,Great service,2023-10-04
+1058,,bob.lee@gmail.com,Montreal,5,,2023-01-20
+1510,  Alice Johnson  ,sarah@domain.com,Montreal,4,Bad experience,2023-06-03
+1681,Alice Johnson,john@example.com,Toronto,5,Okay,2023-03-09
+1475,Alice Johnson,alice@sample.net,Montreal,4,Bad experience,2023-08-02
+1699,  Alice Johnson  ,,toronto,4,Okay,2023-05-23
+1975,John Smith,john@example.com,MONTREAL,4,Bad experience,2023-08-20
+1782,Sarah Khan,john@example.com,Montreal,,Okay,2023-08-01
+1189,Alice Johnson,bob.lee@gmail.com,MONTREAL,4,,2023-03-20
+1957,  Alice Johnson  ,sarah@domain.com,toronto,4,Okay,2023-08-02
+1686,  Alice Johnson  ,,Toronto,2,Okay,2023-04-26
+1957,Bob Lee,alice@sample.net,Vancouver,1,Great service,2023-04-02
+1562,Sarah Khan,,Montreal,3,Okay,2023-09-27
+1875,,alice@sample.net,Vancouver,1,Great service,2023-06-17
+1566,John Smith,sarah@domain.com,toronto,4,,2023-02-27
+1243,,alice@sample.net,Montreal,2,Great service,2023-10-11
+1831,Sarah Khan,bob.lee@gmail.com,MONTREAL,5,,2023-01-26
+1504,Sarah Khan,bob.lee@gmail.com,,2,Great service,2023-03-07
+1130,Sarah Khan,bob.lee@gmail.com,Vancouver,4,,2023-09-05
+1484,,bob.lee@gmail.com,Montreal,2,,2023-09-11
+1818,Sarah Khan,,Vancouver,2,Bad experience,2023-02-13
+1646,  Alice Johnson  ,sarah@domain.com,Montreal,4,Bad experience,2023-04-07
+1020,,alice@sample.net,Toronto,,Great service,2023-02-11
+1840,Sarah Khan,alice@sample.net,MONTREAL,2,Great service,2023-08-15
+1166,  Alice Johnson  ,bob.lee@gmail.com,Vancouver,3,,2023-09-19
+1273,Bob Lee,bob.lee@gmail.com,,3,,2023-06-16
+1387,Sarah Khan,john@example.com,,2,Okay,2023-10-06
+1600,,sarah@domain.com,toronto,,,2023-03-30
+1315,Alice Johnson,,Montreal,5,Okay,2023-06-27
+1013,Sarah Khan,alice@sample.net,Vancouver,4,,2023-07-16
+1241,Alice Johnson,john@example.com,toronto,3,Great service,2023-11-03
+1776,  Alice Johnson  ,john@example.com,Vancouver,5,,2023-09-24
+1345,Bob Lee,alice@sample.net,Montreal,2,,2023-09-25
+1564,John Smith,,,5,,2023-03-15
+1897,Bob Lee,john@example.com,Toronto,1,,2023-01-08
+1339,Sarah Khan,john@example.com,,3,,2023-10-24
+1091,Alice Johnson,sarah@domain.com,toronto,2,,2023-06-13
+1366,Alice Johnson,,MONTREAL,4,,2023-03-26
+1955,,john@example.com,Toronto,,Okay,2023-03-13
+1454,Alice Johnson,,toronto,2,,2023-02-24
+1427,,alice@sample.net,Montreal,4,,2023-02-16
+1508,  Alice Johnson  ,bob.lee@gmail.com,Toronto,,,2023-08-26
+1775,John Smith,john@example.com,toronto,,Bad experience,2023-04-14
+1942,Sarah Khan,sarah@domain.com,Montreal,2,Okay,2023-07-29
+1034,,alice@sample.net,,5,,2023-02-11
+1205,John Smith,,MONTREAL,5,Bad experience,2023-11-12
+1080,Alice Johnson,alice@sample.net,Montreal,,Bad experience,2023-09-25
+1931,Alice Johnson,john@example.com,Vancouver,5,,2023-09-20
+1561,John Smith,,Montreal,1,Bad experience,2023-12-02
+1871,Alice Johnson,bob.lee@gmail.com,Montreal,,Okay,2023-12-31
+1387,  Alice Johnson  ,alice@sample.net,MONTREAL,,Okay,2023-09-16
+1001,  Alice Johnson  ,john@example.com,Vancouver,4,Great service,2023-10-10
+1389,John Smith,sarah@domain.com,toronto,5,Okay,2023-04-24
+1565,,,toronto,,Bad experience,2023-12-29
+1105,,alice@sample.net,Montreal,1,Okay,2023-02-09
+1771,John Smith,alice@sample.net,Vancouver,4,,2023-08-08
+1821,,bob.lee@gmail.com,Vancouver,2,Great service,2023-05-09
+1476,,bob.lee@gmail.com,MONTREAL,,Bad experience,2023-01-08
+1702,  Alice Johnson  ,sarah@domain.com,,1,Great service,2023-04-11
+1401,,sarah@domain.com,toronto,3,Bad experience,2023-06-25
+1729,Bob Lee,john@example.com,MONTREAL,1,,2023-04-17
+1555,Sarah Khan,john@example.com,Toronto,1,Great service,2023-04-11
+1161,Alice Johnson,sarah@domain.com,toronto,4,,2023-09-17
+1201,Bob Lee,sarah@domain.com,MONTREAL,2,Bad experience,2023-09-03
+1957,,,toronto,3,,2023-10-02
+1995,  Alice Johnson  ,bob.lee@gmail.com,,5,Great service,2023-02-01
+1269,John Smith,john@example.com,Toronto,5,,2023-05-17
+1862,,bob.lee@gmail.com,,1,,2023-01-12
+1815,  Alice Johnson  ,bob.lee@gmail.com,Toronto,4,Great service,2023-10-29
+1270,Sarah Khan,sarah@domain.com,Montreal,4,,2023-01-16
+1455,,,MONTREAL,5,,2023-05-09
+1461,John Smith,alice@sample.net,Toronto,3,,2023-03-04
+1726,  Alice Johnson  ,,,2,,2023-04-19
+1251,  Alice Johnson  ,,toronto,3,,2023-01-21
+1701,  Alice Johnson  ,bob.lee@gmail.com,Toronto,,,2023-06-07
+1295,Sarah Khan,,MONTREAL,,,2023-09-26
+1724,,john@example.com,Toronto,2,Okay,2023-06-11
+1719,Sarah Khan,bob.lee@gmail.com,Vancouver,5,,2023-09-17
+1748,Alice Johnson,john@example.com,toronto,2,,2023-04-12
+1337,Alice Johnson,alice@sample.net,MONTREAL,4,,2023-08-11
+1878,,bob.lee@gmail.com,MONTREAL,,Bad experience,2023-02-28
+1052,Sarah Khan,alice@sample.net,Montreal,1,Bad experience,2023-09-04
+1791,John Smith,bob.lee@gmail.com,,1,,2023-05-08
+1921,  Alice Johnson  ,sarah@domain.com,Montreal,5,,2023-10-10
+1216,  Alice Johnson  ,,MONTREAL,4,,2023-11-21
+1763,,sarah@domain.com,toronto,3,,2023-01-25
+1187,Alice Johnson,alice@sample.net,Toronto,4,Okay,2023-05-11
+1379,Alice Johnson,,Toronto,1,Bad experience,2023-12-19
+1492,  Alice Johnson  ,bob.lee@gmail.com,toronto,1,,2023-07-15
+1040,,,MONTREAL,,,2023-10-08
+1156,Sarah Khan,john@example.com,Toronto,4,Okay,2023-06-03
+1014,Alice Johnson,,Toronto,4,Okay,2023-05-13
+1812,Sarah Khan,john@example.com,Toronto,1,,2023-08-15
+1064,Alice Johnson,,,3,Great service,2023-07-08
+1856,Alice Johnson,john@example.com,,5,,2023-09-22
+1838,Bob Lee,alice@sample.net,Vancouver,5,,2023-05-14
+1520,Alice Johnson,sarah@domain.com,Montreal,4,Okay,2023-07-30
+1343,John Smith,bob.lee@gmail.com,toronto,5,Okay,2023-03-01
+1128,,,toronto,1,,2023-12-30
+1647,,sarah@domain.com,toronto,1,,2023-12-30
+1471,Sarah Khan,bob.lee@gmail.com,Vancouver,4,,2023-08-01
+1062,Alice Johnson,bob.lee@gmail.com,,4,Okay,2023-08-04
+1138,John Smith,john@example.com,MONTREAL,,,2023-08-14
+1498,Sarah Khan,alice@sample.net,MONTREAL,4,,2023-05-11
+1592,Bob Lee,alice@sample.net,Vancouver,3,,2023-03-17
+1391,Sarah Khan,sarah@domain.com,MONTREAL,5,Great service,2023-10-13
+1674,Sarah Khan,alice@sample.net,toronto,4,Bad experience,2023-10-04
+1418,Alice Johnson,,Montreal,2,Great service,2023-06-05
+1288,Bob Lee,alice@sample.net,Toronto,,,2023-09-05
+1378,Sarah Khan,sarah@domain.com,,2,Bad experience,2023-08-06
+1772,John Smith,alice@sample.net,,1,,2023-07-09
+1489,John Smith,,Vancouver,5,,2023-06-12
+1230,,john@example.com,,4,,2023-06-29
+1040,Bob Lee,sarah@domain.com,toronto,2,Okay,2023-02-03
+1027,Bob Lee,john@example.com,MONTREAL,5,,2023-02-10
+1134,,john@example.com,toronto,1,Okay,2023-11-03
+1200,Sarah Khan,john@example.com,Vancouver,3,,2023-12-04
+1839,Bob Lee,bob.lee@gmail.com,toronto,,,2023-11-10
+1779,John Smith,bob.lee@gmail.com,MONTREAL,5,Okay,2023-03-16
+1929,John Smith,john@example.com,Montreal,5,Bad experience,2023-10-06
+1032,Alice Johnson,sarah@domain.com,Vancouver,3,Great service,2023-06-25
+1047,Bob Lee,,Montreal,5,,2023-05-30
+1502,Sarah Khan,,Toronto,1,,2023-09-30
+1406,,alice@sample.net,Montreal,1,,2023-11-21
+1573,,sarah@domain.com,Toronto,3,Okay,2023-04-18
+1727,Sarah Khan,bob.lee@gmail.com,Toronto,,,2023-05-19
+1804,  Alice Johnson  ,john@example.com,Montreal,4,Okay,2023-12-16
+1098,Alice Johnson,alice@sample.net,Vancouver,2,,2023-09-28
+1683,,,MONTREAL,4,Great service,2023-12-13
+1871,Bob Lee,bob.lee@gmail.com,toronto,5,Great service,2023-10-16
+1725,Alice Johnson,bob.lee@gmail.com,toronto,2,Great service,2023-07-31
+1986,Bob Lee,john@example.com,MONTREAL,3,Great service,2023-09-29
+1546,John Smith,,Toronto,3,Great service,2023-03-07
+1960,Alice Johnson,sarah@domain.com,Toronto,,Great service,2023-09-05
+1738,,bob.lee@gmail.com,Vancouver,2,Okay,2023-06-05
+1612,Alice Johnson,john@example.com,,1,,2023-02-16
+1942,Alice Johnson,sarah@domain.com,Montreal,2,,2023-07-20
+1461,Alice Johnson,,Toronto,5,Great service,2023-05-28
+1642,  Alice Johnson  ,bob.lee@gmail.com,toronto,1,Okay,2023-05-04
+1768,Alice Johnson,sarah@domain.com,Vancouver,3,Okay,2023-01-01
+1004,Bob Lee,sarah@domain.com,Montreal,2,Okay,2023-09-04
+1217,John Smith,sarah@domain.com,Vancouver,4,,2023-12-09
+1502,Sarah Khan,bob.lee@gmail.com,Montreal,,,2023-05-08
+1766,Alice Johnson,bob.lee@gmail.com,Montreal,4,,2023-07-10
+1397,,alice@sample.net,MONTREAL,,Bad experience,2023-03-08
+1870,Alice Johnson,,Toronto,5,Okay,2023-01-04
+1794,,john@example.com,Vancouver,4,Bad experience,2023-10-30
+1392,Bob Lee,sarah@domain.com,Vancouver,2,Great service,2023-10-21
+1206,,alice@sample.net,MONTREAL,2,Great service,2023-05-23
+1014,Sarah Khan,john@example.com,toronto,4,,2023-07-10
+1857,John Smith,alice@sample.net,toronto,2,,2023-01-21
+1553,,bob.lee@gmail.com,Toronto,5,Bad experience,2023-08-15
+1891,,sarah@domain.com,Toronto,1,,2023-11-09
+1460,John Smith,john@example.com,,5,,2023-04-27
+1690,Sarah Khan,john@example.com,MONTREAL,,Great service,2023-10-29
+1574,Alice Johnson,john@example.com,toronto,5,,2023-05-22
+1863,,john@example.com,Montreal,,,2023-02-08
+1742,John Smith,john@example.com,Vancouver,2,Great service,2023-12-21
+1240,Bob Lee,alice@sample.net,Toronto,1,Bad experience,2023-09-09
+1563,John Smith,sarah@domain.com,Vancouver,2,Great service,2023-11-29
+1095,Bob Lee,bob.lee@gmail.com,Vancouver,3,,2023-07-26
+1899,Sarah Khan,bob.lee@gmail.com,,2,Bad experience,2023-07-29
+1733,Alice Johnson,bob.lee@gmail.com,toronto,,Bad experience,2023-04-25
+1484,John Smith,bob.lee@gmail.com,Toronto,2,Great service,2023-08-13
+1406,  Alice Johnson  ,alice@sample.net,Vancouver,2,,2023-05-14
+1230,,,Toronto,1,,2023-09-08
+1748,Sarah Khan,sarah@domain.com,Montreal,2,,2023-08-07
+1654,John Smith,john@example.com,,1,Okay,2023-04-01
+1170,,,Montreal,4,,2023-12-20
+1540,John Smith,bob.lee@gmail.com,Toronto,3,Bad experience,2023-02-15
+1035,Bob Lee,,Toronto,1,,2023-02-07
+1524,John Smith,sarah@domain.com,toronto,,Bad experience,2023-05-22
+1159,  Alice Johnson  ,john@example.com,Vancouver,4,Bad experience,2023-04-10
+1838,John Smith,john@example.com,Vancouver,1,,2023-11-24
+1698,John Smith,sarah@domain.com,Montreal,1,Bad experience,2023-07-09
+1242,  Alice Johnson  ,sarah@domain.com,,3,Bad experience,2023-02-04
+1085,Sarah Khan,bob.lee@gmail.com,MONTREAL,,Okay,2023-05-27
+1795,John Smith,john@example.com,Vancouver,5,,2023-01-30
+1577,  Alice Johnson  ,,toronto,5,,2023-11-30
+1681,,alice@sample.net,Montreal,1,Okay,2023-03-25
+1556,Bob Lee,alice@sample.net,Montreal,2,,2023-10-08
+1573,Bob Lee,sarah@domain.com,MONTREAL,,Great service,2023-12-10
+1952,John Smith,bob.lee@gmail.com,toronto,4,Great service,2023-09-27
+1645,Sarah Khan,alice@sample.net,,2,Great service,2023-06-03
+1795,Sarah Khan,john@example.com,toronto,2,Okay,2023-04-12
+1027,,sarah@domain.com,,,Okay,2023-08-03
+1619,John Smith,,toronto,1,Bad experience,2023-05-30
+1555,Bob Lee,sarah@domain.com,toronto,1,Great service,2023-03-24
+1339,Sarah Khan,,Toronto,1,,2023-04-20
+1797,John Smith,sarah@domain.com,Montreal,1,,2023-10-02
+1957,Sarah Khan,sarah@domain.com,toronto,5,Great service,2023-07-20
+1330,  Alice Johnson  ,sarah@domain.com,MONTREAL,1,Great service,2023-10-11
+1639,Sarah Khan,,toronto,5,Great service,2023-06-22
+1505,Bob Lee,,Vancouver,5,Okay,2023-11-23
+1347,Alice Johnson,sarah@domain.com,Montreal,1,Okay,2023-07-25
+1472,,alice@sample.net,Vancouver,3,Okay,2023-03-04
+1230,,bob.lee@gmail.com,Montreal,4,,2023-03-14
+1189,Bob Lee,bob.lee@gmail.com,Vancouver,2,,2023-09-08
+1224,Sarah Khan,bob.lee@gmail.com,toronto,5,,2023-05-04
+1384,John Smith,,toronto,,Bad experience,2023-05-01
+1376,Sarah Khan,,Toronto,,Okay,2023-10-02
+1282,Bob Lee,alice@sample.net,MONTREAL,4,,2023-04-30
+1957,,bob.lee@gmail.com,Vancouver,,,2023-11-13
+1632,Sarah Khan,bob.lee@gmail.com,,3,,2023-06-13
+1627,,sarah@domain.com,Toronto,,Okay,2023-10-13
+1972,John Smith,,Vancouver,2,Bad experience,2023-09-22
+1744,,bob.lee@gmail.com,Vancouver,2,Okay,2023-11-16
+1258,,alice@sample.net,Toronto,5,Great service,2023-06-10
+1358,Alice Johnson,alice@sample.net,toronto,1,Okay,2023-11-04
+1709,Alice Johnson,bob.lee@gmail.com,Vancouver,3,Great service,2023-03-30
+1455,  Alice Johnson  ,,toronto,5,Great service,2023-05-22
+1410,Alice Johnson,alice@sample.net,Toronto,3,Bad experience,2023-07-22
+1648,,sarah@domain.com,toronto,1,,2023-11-05
+1317,Bob Lee,alice@sample.net,Montreal,,Okay,2023-08-15
+1676,,john@example.com,,,Great service,2023-11-30
+1224,Bob Lee,john@example.com,Vancouver,1,Okay,2023-08-10
+1818,Bob Lee,,MONTREAL,5,,2023-02-10
+1233,Alice Johnson,bob.lee@gmail.com,,1,,2023-07-15
+1683,Sarah Khan,,toronto,4,,2023-03-09
+1663,John Smith,,Vancouver,2,,2023-09-21
+1974,Alice Johnson,,toronto,5,Bad experience,2023-01-02
+1826,Alice Johnson,,Montreal,3,Great service,2023-12-27
+1373,Sarah Khan,sarah@domain.com,Toronto,4,,2023-05-05
+1671,John Smith,sarah@domain.com,Vancouver,5,Bad experience,2023-04-20
+1607,,alice@sample.net,Montreal,1,Okay,2023-03-27
+1471,  Alice Johnson  ,john@example.com,Montreal,1,Great service,2023-04-30
+1232,  Alice Johnson  ,,Vancouver,1,,2023-05-07
+1691,,alice@sample.net,toronto,1,Great service,2023-09-12
+1112,Alice Johnson,john@example.com,MONTREAL,3,Okay,2023-07-02
+1829,John Smith,bob.lee@gmail.com,Montreal,4,,2023-01-16
+1496,Alice Johnson,sarah@domain.com,,,,2023-03-03
+1441,Bob Lee,john@example.com,Montreal,2,,2023-06-07
+1563,Alice Johnson,bob.lee@gmail.com,MONTREAL,3,,2023-09-25
+1267,Alice Johnson,john@example.com,toronto,3,Bad experience,2023-02-04
+1509,,sarah@domain.com,toronto,,Bad experience,2023-09-24
+1806,,sarah@domain.com,,,Great service,2023-03-05
+1385,,alice@sample.net,Montreal,2,,2023-02-19
+1386,  Alice Johnson  ,,toronto,2,,2023-09-12
+1112,Bob Lee,john@example.com,MONTREAL,,,2023-05-29
+1612,,john@example.com,Vancouver,1,Okay,2023-11-21
+1624,John Smith,bob.lee@gmail.com,Toronto,3,Okay,2023-10-31
+1951,  Alice Johnson  ,sarah@domain.com,Toronto,5,,2023-10-03
+1080,Sarah Khan,john@example.com,Toronto,2,,2023-12-23
+1698,John Smith,sarah@domain.com,Montreal,2,,2023-06-21
+1112,John Smith,john@example.com,,,Bad experience,2023-07-20
+1001,,alice@sample.net,toronto,4,Okay,2023-11-20
+1641,Sarah Khan,,Vancouver,5,Bad experience,2023-02-04
+1219,Sarah Khan,john@example.com,MONTREAL,5,,2023-08-04
+1565,  Alice Johnson  ,sarah@domain.com,Vancouver,2,,2023-03-06
+1854,Sarah Khan,alice@sample.net,MONTREAL,1,Bad experience,2023-01-08
+1996,Bob Lee,john@example.com,Montreal,4,,2023-10-28
+1735,,bob.lee@gmail.com,Toronto,5,,2023-12-09
+1224,Sarah Khan,,Montreal,2,Great service,2023-11-28
+1384,  Alice Johnson  ,john@example.com,,5,Bad experience,2023-03-17
+1402,Bob Lee,alice@sample.net,,4,Bad experience,2023-06-23
+1637,Alice Johnson,bob.lee@gmail.com,MONTREAL,4,,2023-02-16
+1129,Alice Johnson,alice@sample.net,toronto,3,,2023-01-15
+1052,Bob Lee,alice@sample.net,toronto,,Great service,2023-12-27
+1683,  Alice Johnson  ,bob.lee@gmail.com,MONTREAL,,,2023-05-27
+1729,Bob Lee,alice@sample.net,,2,Okay,2023-01-26
+1671,,bob.lee@gmail.com,,4,Okay,2023-11-04
+1709,,john@example.com,,3,Great service,2023-04-03
+1415,Alice Johnson,bob.lee@gmail.com,Montreal,3,,2023-08-20
+1246,Sarah Khan,bob.lee@gmail.com,,5,,2023-01-21
+1835,  Alice Johnson  ,,Vancouver,5,Bad experience,2023-11-03
+1438,Alice Johnson,bob.lee@gmail.com,Toronto,3,Great service,2023-02-07
+1202,Sarah Khan,bob.lee@gmail.com,,5,,2023-10-03
+1183,Sarah Khan,john@example.com,MONTREAL,4,Bad experience,2023-06-06
+1122,,,Toronto,1,Okay,2023-06-28
+1400,John Smith,sarah@domain.com,Montreal,4,Okay,2023-05-12
+1766,John Smith,john@example.com,MONTREAL,3,Bad experience,2023-11-07
+1293,Bob Lee,john@example.com,Toronto,3,Great service,2023-12-14
+1279,,sarah@domain.com,MONTREAL,4,Okay,2023-01-28
+1836,Sarah Khan,bob.lee@gmail.com,Montreal,5,,2023-09-17
+1883,  Alice Johnson  ,alice@sample.net,Vancouver,5,Bad experience,2023-03-17
+1609,John Smith,,Montreal,,Bad experience,2023-03-08
+1197,Sarah Khan,alice@sample.net,Montreal,3,Okay,2023-12-08
+1981,John Smith,sarah@domain.com,MONTREAL,2,Great service,2023-07-13
+1906,John Smith,john@example.com,toronto,,,2023-06-11
+1510,John Smith,john@example.com,,5,Great service,2023-12-13
+1751,  Alice Johnson  ,,,4,,2023-12-27
+1143,,john@example.com,Vancouver,5,,2023-09-14
+1608,  Alice Johnson  ,john@example.com,Vancouver,4,Okay,2023-03-13
+1200,Alice Johnson,,,,Okay,2023-03-28
+1123,Sarah Khan,,toronto,3,Okay,2023-09-19
+1186,,sarah@domain.com,,5,,2023-08-02
+1325,,john@example.com,toronto,4,Great service,2023-06-02
+1463,,john@example.com,Vancouver,3,Great service,2023-07-29
+1348,,sarah@domain.com,Toronto,2,Okay,2023-03-02
+1770,  Alice Johnson  ,bob.lee@gmail.com,MONTREAL,4,,2023-09-25
+1659,,bob.lee@gmail.com,Vancouver,,Great service,2023-09-19
+1763,Bob Lee,bob.lee@gmail.com,Vancouver,2,,2023-08-06
+1954,Sarah Khan,sarah@domain.com,Montreal,2,Bad experience,2023-10-10
+1931,,john@example.com,Montreal,1,Bad experience,2023-05-16
+1402,Sarah Khan,sarah@domain.com,Montreal,5,Bad experience,2023-12-28
+1345,Bob Lee,sarah@domain.com,MONTREAL,4,,2023-04-03
+1962,Bob Lee,bob.lee@gmail.com,Montreal,2,Okay,2023-04-19
+1510,Sarah Khan,alice@sample.net,toronto,1,,2023-08-29
+1146,John Smith,john@example.com,,,,2023-12-21
+1147,Alice Johnson,bob.lee@gmail.com,Toronto,3,,2023-05-22
+1863,John Smith,alice@sample.net,Vancouver,4,,2023-10-18
+1710,John Smith,alice@sample.net,toronto,2,Okay,2023-08-25
+1819,  Alice Johnson  ,,Toronto,5,Bad experience,2023-12-06
+1488,John Smith,john@example.com,toronto,1,Okay,2023-11-08
+1928,,alice@sample.net,toronto,2,,2023-06-26
+1935,  Alice Johnson  ,bob.lee@gmail.com,Vancouver,5,,2023-05-21
+1639,  Alice Johnson  ,,,2,,2023-07-08
+1550,Bob Lee,john@example.com,Montreal,4,Okay,2023-02-18
+1337,John Smith,sarah@domain.com,MONTREAL,4,,2023-10-29
+1871,Bob Lee,bob.lee@gmail.com,,4,,2023-07-09
+1640,Sarah Khan,alice@sample.net,MONTREAL,,Great service,2023-05-16
+1778,Alice Johnson,alice@sample.net,Vancouver,,,2023-02-12
+1987,  Alice Johnson  ,bob.lee@gmail.com,Vancouver,1,,2023-12-19
+1952,Sarah Khan,alice@sample.net,Vancouver,4,Great service,2023-03-31
+1472,Sarah Khan,,Toronto,5,,2023-10-22
+1945,,john@example.com,MONTREAL,2,,2023-12-07
+1150,Alice Johnson,,,3,Bad experience,2023-09-02
+1414,Sarah Khan,alice@sample.net,,5,,2023-07-11
+1989,Sarah Khan,sarah@domain.com,toronto,,Okay,2023-11-14
+1297,Alice Johnson,john@example.com,toronto,,,2023-04-16
+1610,Alice Johnson,john@example.com,toronto,5,,2023-12-29
+1262,Sarah Khan,bob.lee@gmail.com,Vancouver,,Okay,2023-11-06
+1763,Alice Johnson,bob.lee@gmail.com,,4,Okay,2023-08-21
+1143,Sarah Khan,sarah@domain.com,MONTREAL,1,Bad experience,2023-09-22
+1345,Sarah Khan,john@example.com,Vancouver,2,,2023-12-10
+1623,,sarah@domain.com,Toronto,1,,2023-02-06
+1571,John Smith,bob.lee@gmail.com,toronto,2,Bad experience,2023-11-01
+1880,Sarah Khan,bob.lee@gmail.com,Vancouver,2,Great service,2023-02-10
+1001,Bob Lee,john@example.com,Vancouver,1,Bad experience,2023-01-17
+1896,  Alice Johnson  ,,Toronto,5,,2023-12-10
+1303,John Smith,alice@sample.net,Montreal,2,,2023-10-04
+1253,John Smith,bob.lee@gmail.com,,1,Okay,2023-11-03
+1651,John Smith,bob.lee@gmail.com,MONTREAL,2,,2023-02-28
+1452,,,Montreal,3,,2023-07-02
+1036,Sarah Khan,,toronto,5,Bad experience,2023-02-10
+1159,,sarah@domain.com,Vancouver,4,,2023-02-08
+1008,Sarah Khan,sarah@domain.com,Toronto,2,,2023-07-11
+1232,,alice@sample.net,Toronto,3,Great service,2023-09-24
+1098,,alice@sample.net,,4,Great service,2023-05-27
+1658,  Alice Johnson  ,john@example.com,Montreal,4,Okay,2023-11-29
+1815,Bob Lee,sarah@domain.com,,2,,2023-05-07
+1207,,bob.lee@gmail.com,Vancouver,1,Great service,2023-02-15
+1130,  Alice Johnson  ,sarah@domain.com,,2,Bad experience,2023-02-14
+1403,Alice Johnson,bob.lee@gmail.com,MONTREAL,3,,2023-01-01
+1151,Bob Lee,,Toronto,4,Bad experience,2023-06-17
+1053,,sarah@domain.com,Toronto,2,Bad experience,2023-04-18
+1119,John Smith,,toronto,1,Great service,2023-01-19
+1672,Alice Johnson,alice@sample.net,toronto,2,,2023-11-28
+1919,Alice Johnson,alice@sample.net,Vancouver,5,,2023-03-13
+1627,  Alice Johnson  ,john@example.com,MONTREAL,1,Great service,2023-04-19
+1586,Alice Johnson,sarah@domain.com,Montreal,3,Great service,2023-09-25
+1624,Bob Lee,,,4,,2023-08-28
+1967,,bob.lee@gmail.com,Vancouver,2,,2023-10-28
+1419,,alice@sample.net,toronto,1,Bad experience,2023-03-31
+1421,John Smith,alice@sample.net,,5,,2023-04-13
+1103,  Alice Johnson  ,bob.lee@gmail.com,toronto,1,Bad experience,2023-09-07
+1851,John Smith,,,,Great service,2023-01-08
+1253,Alice Johnson,,Montreal,5,Okay,2023-06-02
+1226,John Smith,sarah@domain.com,Vancouver,3,,2023-12-13
+1111,Bob Lee,sarah@domain.com,,4,Great service,2023-06-23
+1509,,john@example.com,MONTREAL,3,,2023-12-09
+1472,Alice Johnson,alice@sample.net,Toronto,2,,2023-06-07
+1098,John Smith,sarah@domain.com,MONTREAL,1,Okay,2023-08-03
+1152,  Alice Johnson  ,,MONTREAL,,Okay,2023-06-26
+1860,Bob Lee,bob.lee@gmail.com,Toronto,5,Bad experience,2023-06-24
+1913,Bob Lee,,MONTREAL,5,,2023-12-06
+1895,John Smith,alice@sample.net,,1,Bad experience,2023-12-04
+1877,,,,,Great service,2023-05-26
+1337,John Smith,john@example.com,,1,,2023-11-20
+1705,Alice Johnson,alice@sample.net,Toronto,2,Great service,2023-06-10
+1821,John Smith,bob.lee@gmail.com,MONTREAL,3,Bad experience,2023-05-07
+1162,Bob Lee,john@example.com,Toronto,5,,2023-03-23
+1719,John Smith,alice@sample.net,,2,Bad experience,2023-05-27
+1956,,bob.lee@gmail.com,MONTREAL,3,,2023-08-27
+1680,  Alice Johnson  ,john@example.com,MONTREAL,2,Bad experience,2023-03-25
+1995,Sarah Khan,john@example.com,toronto,,Okay,2023-04-23
+1160,John Smith,alice@sample.net,toronto,5,Bad experience,2023-08-13
+1579,,sarah@domain.com,Montreal,1,Okay,2023-11-28
+1800,,john@example.com,Vancouver,1,Bad experience,2023-08-31
+1397,  Alice Johnson  ,john@example.com,toronto,3,,2023-05-23
+1276,Bob Lee,bob.lee@gmail.com,Toronto,4,,2023-02-10
+1815,,,toronto,,,2023-09-15
+1915,,alice@sample.net,Montreal,3,,2023-10-12
+1503,,alice@sample.net,MONTREAL,4,Great service,2023-04-15
+1895,,sarah@domain.com,Montreal,2,,2023-07-21
+1391,Alice Johnson,sarah@domain.com,MONTREAL,,Okay,2023-11-03
+1134,Alice Johnson,alice@sample.net,MONTREAL,2,,2023-11-27
+1194,Bob Lee,sarah@domain.com,Vancouver,5,,2023-09-23
+1400,John Smith,bob.lee@gmail.com,toronto,,Okay,2023-07-29
+1639,,alice@sample.net,Toronto,4,,2023-02-20
+1032,  Alice Johnson  ,sarah@domain.com,Toronto,5,Okay,2023-04-28
+1687,John Smith,alice@sample.net,,1,Bad experience,2023-07-20
+1459,  Alice Johnson  ,,MONTREAL,4,Great service,2023-02-08
+1954,John Smith,john@example.com,Toronto,3,Great service,2023-01-28
+1882,Bob Lee,alice@sample.net,Vancouver,1,,2023-09-16
+1469,,john@example.com,MONTREAL,1,Great service,2023-03-25
+1374,,sarah@domain.com,Vancouver,3,,2023-06-04
+1021,Sarah Khan,john@example.com,Toronto,,,2023-04-27
+1749,  Alice Johnson  ,alice@sample.net,Toronto,1,,2023-01-02
+1669,John Smith,,,4,Great service,2023-04-03
+1037,John Smith,sarah@domain.com,Toronto,5,,2023-06-15
+1229,Alice Johnson,alice@sample.net,MONTREAL,1,Great service,2023-12-16
+1364,Sarah Khan,sarah@domain.com,MONTREAL,4,,2023-10-23
+1562,Alice Johnson,bob.lee@gmail.com,MONTREAL,2,,2023-09-15
+1437,Alice Johnson,john@example.com,,4,,2023-03-22
+1775,Alice Johnson,bob.lee@gmail.com,,5,Okay,2023-09-25
+1282,  Alice Johnson  ,alice@sample.net,Toronto,4,,2023-08-23
+1026,  Alice Johnson  ,,Montreal,3,Bad experience,2023-11-17
+1225,Bob Lee,sarah@domain.com,Montreal,5,,2023-11-07
+1276,Bob Lee,john@example.com,,,Okay,2023-10-28
+1797,Alice Johnson,sarah@domain.com,Toronto,2,Okay,2023-12-23
+1608,Sarah Khan,alice@sample.net,Montreal,3,Great service,2023-08-01
+1283,John Smith,sarah@domain.com,Toronto,,,2023-03-03
+1878,  Alice Johnson  ,john@example.com,Toronto,4,,2023-02-18
+1959,Sarah Khan,alice@sample.net,Toronto,5,Great service,2023-05-07
+1480,,sarah@domain.com,toronto,2,,2023-08-11
+1452,  Alice Johnson  ,,MONTREAL,3,,2023-10-06
+1828,  Alice Johnson  ,alice@sample.net,Toronto,,Bad experience,2023-10-21
+1815,Bob Lee,alice@sample.net,toronto,,,2023-10-11
+1658,John Smith,,,2,Okay,2023-10-04
+1515,John Smith,bob.lee@gmail.com,Montreal,4,Okay,2023-04-17
+1546,,john@example.com,MONTREAL,2,Bad experience,2023-05-26
+1191,,bob.lee@gmail.com,Montreal,,Great service,2023-04-09
+1048,  Alice Johnson  ,sarah@domain.com,MONTREAL,1,,2023-03-14
+1511,Alice Johnson,,Montreal,3,,2023-05-02
+1016,Bob Lee,bob.lee@gmail.com,MONTREAL,2,Okay,2023-01-30
+1171,Bob Lee,alice@sample.net,Montreal,,Great service,2023-07-07
+1219,  Alice Johnson  ,sarah@domain.com,Montreal,4,Bad experience,2023-12-30
+1157,Sarah Khan,sarah@domain.com,Montreal,,Okay,2023-12-20
+1476,Alice Johnson,bob.lee@gmail.com,Montreal,4,Bad experience,2023-10-15
+1045,  Alice Johnson  ,bob.lee@gmail.com,,2,,2023-07-14
+1372,Alice Johnson,,Toronto,4,,2023-06-05
+1517,Alice Johnson,john@example.com,Vancouver,5,Okay,2023-06-21
+1098,Alice Johnson,bob.lee@gmail.com,toronto,5,Okay,2023-12-01
+1891,  Alice Johnson  ,bob.lee@gmail.com,Vancouver,5,,2023-02-10
+1744,Bob Lee,alice@sample.net,Vancouver,1,Great service,2023-03-04
+1036,Bob Lee,sarah@domain.com,MONTREAL,2,,2023-01-23
+1279,Alice Johnson,john@example.com,Toronto,,Okay,2023-12-26
+1348,Sarah Khan,alice@sample.net,MONTREAL,,,2023-03-16
+1496,John Smith,,Toronto,1,Okay,2023-02-17
+1301,  Alice Johnson  ,,Toronto,4,,2023-06-09
+1180,John Smith,bob.lee@gmail.com,Montreal,1,Bad experience,2023-11-09
+1606,Sarah Khan,bob.lee@gmail.com,,4,Okay,2023-04-28
+1098,  Alice Johnson  ,,Montreal,4,,2023-04-10
+1699,Alice Johnson,bob.lee@gmail.com,,3,Great service,2023-06-16
+1992,Bob Lee,john@example.com,MONTREAL,,Bad experience,2023-10-17
+1115,John Smith,bob.lee@gmail.com,,5,Bad experience,2023-06-05
+1190,,sarah@domain.com,MONTREAL,4,Great service,2023-01-07
+1252,,bob.lee@gmail.com,Vancouver,3,,2023-07-15
+1980,Sarah Khan,alice@sample.net,Vancouver,,,2023-02-25
+1927,Alice Johnson,john@example.com,,5,Great service,2023-11-17
+1982,John Smith,alice@sample.net,,4,,2023-07-12
+1160,Alice Johnson,alice@sample.net,MONTREAL,4,Great service,2023-02-16
+1255,John Smith,sarah@domain.com,Montreal,1,Great service,2023-05-28
+1322,Sarah Khan,john@example.com,MONTREAL,1,Okay,2023-10-02
+1127,Sarah Khan,john@example.com,Montreal,,,2023-06-06
+1017,,john@example.com,Vancouver,5,,2023-07-21
+1792,Alice Johnson,john@example.com,Toronto,4,Okay,2023-05-06
+1734,  Alice Johnson  ,john@example.com,,,Great service,2023-11-01
+1565,,sarah@domain.com,Montreal,,Great service,2023-10-21
+1569,Alice Johnson,bob.lee@gmail.com,MONTREAL,2,Great service,2023-03-05
+1438,Alice Johnson,bob.lee@gmail.com,Toronto,3,Great service,2023-02-07
+1710,John Smith,alice@sample.net,toronto,2,Okay,2023-08-25
+1189,Alice Johnson,bob.lee@gmail.com,MONTREAL,4,,2023-03-20
+1315,Alice Johnson,,Montreal,5,Okay,2023-06-27
+1301,  Alice Johnson  ,,Toronto,4,,2023-06-09
+1115,John Smith,bob.lee@gmail.com,,5,Bad experience,2023-06-05
+1293,Bob Lee,john@example.com,Toronto,3,Great service,2023-12-14
+1160,Bob Lee,alice@sample.net,MONTREAL,5,Great service,2023-02-28
+1455,  Alice Johnson  ,,toronto,5,Great service,2023-05-22
+1001,  Alice Johnson  ,john@example.com,Vancouver,4,Great service,2023-10-10
+1200,Alice Johnson,,,,Okay,2023-03-28
+1871,Bob Lee,bob.lee@gmail.com,toronto,5,Great service,2023-10-16
+1878,,bob.lee@gmail.com,MONTREAL,,Bad experience,2023-02-28
+1600,,sarah@domain.com,toronto,,,2023-03-30
+1202,Sarah Khan,bob.lee@gmail.com,,5,,2023-10-03
+1857,John Smith,alice@sample.net,toronto,2,,2023-01-21
+1469,,john@example.com,MONTREAL,1,Great service,2023-03-25
+1996,Bob Lee,john@example.com,Montreal,4,,2023-10-28
+1498,Sarah Khan,alice@sample.net,MONTREAL,4,,2023-05-11
+1418,Alice Johnson,,Montreal,2,Great service,2023-06-05
+1402,Bob Lee,alice@sample.net,,4,Bad experience,2023-06-23
+1836,Sarah Khan,bob.lee@gmail.com,Montreal,5,,2023-09-17
+1279,,sarah@domain.com,MONTREAL,4,Okay,2023-01-28
+1255,John Smith,sarah@domain.com,Montreal,1,Great service,2023-05-28
+1387,Sarah Khan,john@example.com,,2,Okay,2023-10-06
