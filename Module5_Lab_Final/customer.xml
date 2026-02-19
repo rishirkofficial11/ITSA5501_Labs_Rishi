@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<customer>
+    <id>101</id>
+    <firstName>Rishi Kumar</firstName>
+    <lastName>Ram Kumar</lastName>
+    <email>Rishispearmarter5@gmail.com</email>
+    <phone>9876543210</phone>
+    <isActive>true</isActive>
+    <balance>1500.75</balance>
+    <address>
+        <city>Toronto</city>
+        <province>Ontario</province>
+    </address>
+    <orders>
+        <order>Book</order>
+        <order>Laptop</order>
+    </orders>
+</customer>

@@ -1,0 +1,12 @@
+{
+    "name" : "Lab3_Containers",
+    "version" : "1.0.0",
+    "description" : "Lab to work on Docker images and containers",
+    "main" : "index.js",
+    "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author" : "Jigisha Patel",
+    "license" : "ISC"
+}
