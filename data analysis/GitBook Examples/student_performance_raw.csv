@@ -1,0 +1,40 @@
+student_id,school,subject,score,attempt,gender,exam_date,comments
+2034,North High,maths,65,1,female,2023-06-13,good
+2010,S.High,History,,2,male,2023-08-15,excellent 
+2087,S.High,maths,45,first,F,2023-05-27,N/A
+2072,South High,maths,45,2,F,20-01-2023,needs improvement
+2096,north high,maths,72,1,male,2023-02-16,good
+2076,North High,maths,,second,male,21-08-2023,
+2001,South High,Science,95,2,,01-11-2023,excellent 
+2017,N. High,Math,65,1,,2023-01-14,excellent 
+2026,South High,science,45,2,F,2023-05-23,good
+2071,South High,maths,72,first,female,01-01-2023,N/A
+2032,north high,History,,2,F,2023-02-23,good
+2009,N. High,maths,65,2,female,2023-09-16,needs improvement
+2060,South High,History,,1,female,24-05-2023,good
+2078,North High,Science,101,1,,12-01-2023,excellent 
+2023,North High,History,72,1,M,2023-11-26,good
+2045,S.High,science,65,2,M,12-08-2023,N/A
+2042,N. High,Math,88,first,male,2023-09-29,
+2003,N. High,History,88,second,,2023-12-24, absent
+2006,S.High,History,65,second,female,2023-06-05,good
+2020,South High,Math,,1,M,08-01-2023,N/A
+2047,N. High,science,72,1,female,02-05-2023,N/A
+2035,North High,maths,88,2,M,14-12-2023,
+2030,North High,History,72,second,M,13-06-2023,excellent 
+2019,north high,Math,88,1,M,31-03-2023,N/A
+2064,N. High,Science,101,first,,2023-05-16,N/A
+2088,South High,Math,,first,F,2023-07-05,N/A
+2079,S.High,Science,101,1,female,2023-11-12,N/A
+2043,S.High,science,88,1,,2023-06-27,needs improvement
+2074,South High,maths,101,second,,28-01-2023,needs improvement
+2013,north high,Math,88,second,,2023-08-08,excellent 
+2037,S.High,History,65,2,,23-12-2023,good
+2044,N. High,science,101,second,,2023-02-10,N/A
+2040,north high,Math,55,first,male,16-08-2023,
+2081,N. High,History,,first,female,11-07-2023,good
+2058,North High,Math,45,1,,2023-05-25,
+2009,N. High,maths,65,2,female,2023-09-16,needs improvement
+2020,South High,Math,,1,M,08-01-2023,N/A
+2074,South High,maths,101,second,,28-01-2023,needs improvement
+2010,S.High,History,,2,male,2023-08-15,excellent 
