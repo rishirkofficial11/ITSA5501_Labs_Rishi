@@ -1,0 +1,41 @@
+services: #Define the services that will be part of the application
+  redis: #Redis service configuration
+    image: redis:7-alpine #use the latest Redis image from Docker Hub
+    #configure Redis to save the data every 60 seconds if at least 1 change has been made, 
+    #and to use append-only file for persistence
+    command: ["redis-server", "--save", "60", "1", "--appendonly", "yes"] 
+    volumes:
+      - redis-data:/data #use a named volume to persist Redis data
+  api: #API service configuration
+    build: ./api #path to Dockerfile for api container
+    environment: #set environment variables for the api container
+      PORT: 3000 #port on which the API will listen
+      REDIS_HOST: redis #hostname of the Redis service
+      REDIS_PORT: 6379 #port on which Redis is running
+    ports:
+    #use http://localhost:8080 to access the API from the host machine, and map it to port 3000 in the container
+      - "8080:3000" #map port 8080 on the host to port 3000 in the container
+    depends_on:
+      - redis #ensure that the API service starts after the Redis service is up and running
+    volumes:
+      - db-data:/app/data #use a named volume to persist database data
+    restart: unless-stopped #restart the container unless it is explicitly stopped
+
+  worker: #Worker service configuration
+    build: ./worker #path to Dockerfile for worker container
+    environment: #set environment variables for the worker container
+      REDIS_HOST: redis #hostname of the Redis service
+      REDIS_PORT: 6379 #port on which Redis is running
+      WORKER_CONCURRENCY: 5 #number of concurrent worker processes
+    depends_on:
+      - redis #ensure that the Worker service starts after the Redis service is up and running
+    volumes:
+      - db-data:/app/data #use a named volume to persist database data
+    restart: unless-stopped #restart the container unless it is explicitly stopped
+
+volumes:
+  redis-data: #named volume for Redis data persistence
+  db-data: #named volume for database data persistence
+
+
+  
