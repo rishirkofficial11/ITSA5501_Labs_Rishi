@@ -1,0 +1,1 @@
+This project demonstrates Git workflows for DevOps infrastructure management.
