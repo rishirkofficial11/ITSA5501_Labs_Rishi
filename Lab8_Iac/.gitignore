@@ -1,0 +1,4 @@
+Add-Content .gitignore ".terraform/"
+Add-Content .gitignore ".terraform.lock.hcl"
+Add-Content .gitignore "terraform.tfstate"
+Add-Content .gitignore "terraform.tfstate.backup"
